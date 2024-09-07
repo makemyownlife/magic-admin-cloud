@@ -10,16 +10,16 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!-- dubbo api  -->
-        <module>magic-api</module>
-        <!-- 基础服务  -->
-        <module>magic-common</module>
+        <!-- 依赖模块 -->
+        <module>magic-dependencies</module>
+        <!-- 框架封装 -->
+        <module>magic-framework</module>
         <!-- api 网关  -->
         <module>magic-gateway</module>
         <!-- 系统 服务 -->
-        <module>magic-system</module>
+        <module>magic-module-system</module>
         <!-- 代码生成器 服务 -->
-        <module>magic-generator</module>
+        <module>magic-module-generator</module>
     </modules>
 
     <properties>
